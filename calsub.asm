@@ -4,7 +4,7 @@ section .text
 	global _start
 
 _start:
-	call _printhello
+	call _printhello ;unconditional jump to _printhello
 
 	mov rax,60
 	mov rdi,0
@@ -16,6 +16,6 @@ _printhello:
 	mov rsi,msg
 	mov rdx,13
 	syscall
-	ret
+	ret ;returning back
 
 
