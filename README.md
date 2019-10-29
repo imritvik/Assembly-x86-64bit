@@ -1,7 +1,7 @@
 # Assembly-x86-64bit
-Introduction to Assembly 64bit
+Introduction to Linux Assembly x86-64bit
 
-you have to assemble the codes via nasm and the link it with ld
+you have to assemble this codes via nasm and then link it with ld
 
 example: nasm -f elf64 hello.asm      ;assembling
 
