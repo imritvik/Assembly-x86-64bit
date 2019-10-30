@@ -19,8 +19,8 @@ _start:
 	syscall
 
 _getname:
-        mov rax,0
-        mov rdi,0
+        mov rax,0 	;0 is id for sys_read
+        mov rdi,0	;0 is standard input
         mov rsi,name
         mov rdx,16
         syscall
