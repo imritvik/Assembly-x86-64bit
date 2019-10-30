@@ -1,3 +1,5 @@
+;program that calls another program
+
 section .data
 	msg db "Hello, world",10
 section .text
