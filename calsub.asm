@@ -1,4 +1,4 @@
-;program that calls another program
+;program that calls another program and returns back
 
 section .data
 	msg db "Hello, world",10
