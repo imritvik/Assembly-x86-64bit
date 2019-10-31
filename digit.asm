@@ -1,3 +1,5 @@
+;program that print numbers
+
 section .data
 	dig db 0,10
 
