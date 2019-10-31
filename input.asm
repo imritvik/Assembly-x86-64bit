@@ -1,3 +1,5 @@
+;program that takes input from user
+
 section .data
 	text1 db "what is your name? "
 	text2 db "hello, "
