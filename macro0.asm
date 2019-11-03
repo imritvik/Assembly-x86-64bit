@@ -1,4 +1,6 @@
-%macro exit 0
+;program that uses macros
+;for sake of simplicity i used exit
+%macro exit 0 			;this syntax will only work with nasm!
 	mov rax,60
 	mov rdi,0
 	syscall
